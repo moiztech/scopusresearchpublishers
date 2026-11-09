@@ -668,3 +668,7 @@ a:hover .media img, .media:hover img { transform: scale(1.04); }
   .js .reveal, .js .reveal-img img { opacity: 1; transform: none; transition: none; }
   *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
 }
+
+/* ---------- Star rating (testimonials) ---------- */
+.stars { color: var(--gold); font-size: 1rem; letter-spacing: .18em; line-height: 1; margin: -.4rem 0 1rem; }
+.review-feature .stars { font-size: 1.15rem; margin-top: -.75rem; margin-bottom: 1.5rem; }

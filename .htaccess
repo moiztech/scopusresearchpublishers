@@ -18,6 +18,8 @@ ErrorDocument 404 /404.html
 
   # Old WordPress addresses
   RewriteRule ^feed/?$ /blogs/ [L,R=301]
+  RewriteRule ^(.+)/feed/?$ /$1/ [L,R=301]
+  RewriteRule ^home/?$ / [L,R=301]
   RewriteRule ^(category|author|tag)/.*$ /blogs/ [L,R=301]
   RewriteRule ^wp-admin/?.*$ / [L,R=301]
   RewriteRule ^wp-login\.php$ / [L,R=301]
