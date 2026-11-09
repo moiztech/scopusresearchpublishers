@@ -1,0 +1,14 @@
+# OS / editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+
+# Local preview leftovers
+_preview*.html
+_wrap*.html
